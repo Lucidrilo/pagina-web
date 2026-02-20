@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+}
+
+header {
+    background-color: #46E090;
+    color: purple;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: purple;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.caja {
+    background-color: #46E090;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.imagen-bacterias {
+    width: 400px;
+    border-radius: 9px;
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: purple;
+    padding: 15px;
+    margin-top: 25px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: red;
+    color: black;
+}
