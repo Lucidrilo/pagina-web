@@ -2,30 +2,96 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Ejemplo Div y Menú</title>
+<title>Página web de Luci</title>
 <link rel="stylesheet" href="estilos.css">
 </head>
- 
+
 <body>
- 
+
+<header>
+    <h1>Microbiología</h1>
+</header>
+
 <!-- MENÚ -->
 <nav>
-<a href="#inicio">Inicio</a>
-<a href="#sobre">Sobre mí</a>
-<a href="#contacto">Contacto</a>
+    <a href="#intro">Introducción a la microbiología</a>
+    <a href="#virus">Virus</a>
+    <a href="contacto.html">Contacto</a>
 </nav>
- 
-<!-- DIV 1 -->
-<div id="inicio">
-<h2>Inicio</h2>
-<p>Bienvenido a mi página web.</p>
+
+<main>
+
+<!-- INTRODUCCIÓN -->
+<div id="intro" class="caja">
+
+    <h2>Introducción a la microbiología</h2>
+
+    <p>
+        La microbiología es la rama de la biología que se encarga del estudio de microorganismos, 
+        u organismos que son sólo visibles al <strong>microscopio</strong>.
+    </p>
+
+    <p>
+        Aquí se incluyen las bacterias y protozoos; representantes microscópicos de las algas y los hongos; 
+        y las <em>formas acelulares</em>.
+    </p>
+
 </div>
- 
-<!-- DIV 2 -->
-<div id="sobre">
-<h2>Sobre mí</h2>
-<p>Esta sección habla sobre mí.</p>
+
+<!-- IMAGEN BACTERIAS -->
+<img src="https://static.vecteezy.com/system/resources/thumbnails/046/124/469/small/a-diverse-array-of-colorful-bacteria-cultures-in-petri-dishes-microbial-samples-in-various-forms-concept-of-microbiology-laboratory-research-scientific-studies-biological-diversity-photo.jpeg" 
+alt="Cultivos de bacterias" 
+class="imagen-bacterias">
+
+<!-- FORMAS ACELULARES -->
+<div class="caja">
+
+    <h2>Formas acelulares</h2>
+
+    <p>
+        Las formas acelulares son <em>agentes infecciosos</em>, carentes de metabolismo propio 
+        y <em>parásitos obligados</em>. Son los:
+    </p>
+
+    <table>
+        <tr>
+            <th>VIROIDES</th>
+            <th>PRIONES</th>
+        </tr>
+        <tr>
+            <td>Cadena corta de <em>ARN monocatenario circular</em></td>
+            <td>Pequeñas partículas proteicas alteradas (PrPC, abundante en el cerebro); <em>prion</em>.</td>
+        </tr>
+        <tr>
+            <td>No codifican proteínas y se replican mediante el sistema de transcripción de la célula infectada.</td>
+            <td>Autopropagativos e infectivos.</td>
+        </tr>
+    </table>
+
 </div>
- 
+
+<!-- VIRUS -->
+<div id="virus" class="caja">
+
+    <h2>VIRUS</h2>
+
+    <p>
+        Los virus son agentes infecciosos sólo visibles al microscopio electrónico. 
+        Se reproducen a través de la maquinaria enzimática y estructural de las células a las que infectan, 
+        lo que les hace <strong>parásitos intracelulares obligados</strong>.
+    </p>
+
+    <img src="https://www.monografias.com/trabajos91/a-son-virus-seres-vivos-caracteristicas-basicas-virus/image001.jpg" 
+    alt="Estructura de un virus" 
+    class="imagen-centro">
+
+</div>
+
+</main>
+
+<footer>
+    Página creada por Luci
+</footer>
+
 </body>
-</htm
+</html>
