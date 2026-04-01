@@ -25,6 +25,7 @@ nav a {
     margin: 5px;
     border-radius: 6px;
     font-weight: bold;
+    display: inline-block;
 }
 
 nav a:hover {
@@ -38,13 +39,23 @@ main {
 
 h2 {
     color: purple;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
 }
 
 .caja {
     background-color: #46E090;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 12px;
     margin-top: 20px;
+    width: 85%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 .imagen-centro {
@@ -56,21 +67,58 @@ h2 {
     border-radius: 10px;
 }
 
+iframe {
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
+    background-color: white;
 }
 
 td, th {
     border: 1px solid black;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
 }
 
 th {
     background-color: purple;
     color: white;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.imagen-lado {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
 }
 
 footer {
